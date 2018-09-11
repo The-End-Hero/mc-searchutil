@@ -33,6 +33,7 @@
     "uglify-js": "^3.4.9"
   },
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "typescript": "latest"
   }
 }
