@@ -1,0 +1,49 @@
+{
+  "name": "verify-wxp",
+  "version": "1.0.6",
+  "description": "",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "b": "npm run build && npm run build:min",
+    "vp": "npm version patch",
+    "prepare": "npm run b && npm run vp",
+    "test": "npx cypress open",
+    "build:min": "uglifyjs src/index.js -mco dist/verify.min.js "
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src/*.js",
+    "src/*.d.ts",
+    "src/**/*.js",
+    "src/**/*.d.ts",
+    "dist/*.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "keywords": [
+    "validator",
+    "validator.tool",
+    "validator.js",
+    "validation",
+    "validate",
+    "sanitization",
+    "sanitize",
+    "sanitisation",
+    "sanitise",
+    "assert"
+  ],
+  "author": "xiping.wang <527409987@qq.com> (https://www.wangxiping.top)",
+  "license": "MIT",
+  "homepage": "https://github.com/The-End-Hero/verify",
+  "devDependencies": {
+    "cypress": "^3.1.0",
+    "uglify-js": "^3.4.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
