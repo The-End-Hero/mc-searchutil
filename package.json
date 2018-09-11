@@ -1,6 +1,6 @@
 {
   "name": "mc-searchutil",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
@@ -24,8 +24,7 @@
     "LICENSE",
     "package.json"
   ],
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "xiping.wang <527409987@qq.com> (https://www.wangxiping.top)",
   "license": "MIT",
   "homepage": "https://github.com/The-End-Hero/mc-searchutil",
