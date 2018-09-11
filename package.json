@@ -1,6 +1,6 @@
 {
-  "name": "verify-wxp",
-  "version": "1.0.6",
+  "name": "mc-searchutil",
+  "version": "1.0.0",
   "description": "",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
@@ -25,20 +25,10 @@
     "package.json"
   ],
   "keywords": [
-    "validator",
-    "validator.tool",
-    "validator.js",
-    "validation",
-    "validate",
-    "sanitization",
-    "sanitize",
-    "sanitisation",
-    "sanitise",
-    "assert"
   ],
   "author": "xiping.wang <527409987@qq.com> (https://www.wangxiping.top)",
   "license": "MIT",
-  "homepage": "https://github.com/The-End-Hero/verify",
+  "homepage": "https://github.com/The-End-Hero/mc-searchutil",
   "devDependencies": {
     "cypress": "^3.1.0",
     "uglify-js": "^3.4.9"
